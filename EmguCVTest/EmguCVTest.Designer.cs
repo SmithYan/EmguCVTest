@@ -84,6 +84,7 @@
             this.tSBTPlayRTSP.Name = "tSBTPlayRTSP";
             this.tSBTPlayRTSP.Size = new System.Drawing.Size(50, 24);
             this.tSBTPlayRTSP.Text = "RTSP";
+            this.tSBTPlayRTSP.Click += new System.EventHandler(this.tSBTPlayRTSP_Click);
             // 
             // toolStripSeparator6
             // 
@@ -98,6 +99,7 @@
             this.tSBTPlayLocal.Name = "tSBTPlayLocal";
             this.tSBTPlayLocal.Size = new System.Drawing.Size(51, 24);
             this.tSBTPlayLocal.Text = "Local";
+            this.tSBTPlayLocal.Click += new System.EventHandler(this.tSBTPlayLocal_Click);
             // 
             // tSBTPlayCamera
             // 
