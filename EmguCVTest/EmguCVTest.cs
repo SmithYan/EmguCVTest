@@ -95,7 +95,6 @@ namespace EmguCVTest
         {
             OpenFileDialog openFileDialog = new OpenFileDialog();
             openFileDialog.RestoreDirectory = true;
-
             if (openFileDialog.ShowDialog() == DialogResult.OK)
             {
                 var fName = openFileDialog.FileName;
